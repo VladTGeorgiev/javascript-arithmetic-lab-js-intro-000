@@ -26,3 +26,8 @@ function makeInt(n) {
   if (parseInt(n))
   return n
 }
+
+function makeInt(n) {
+  if (parseInt(n, 10))
+  return n
+}
