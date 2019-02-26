@@ -27,10 +27,9 @@ function makeInt(n) {
 }
 
 function makeInt(n) {
-  if (parseInt(n, 10))
-  return n
+  return parseInt(n, 10)
 }
 
-  function preserveDecimal(n) {
-  return (parseFloat(n))
+function preserveDecimal(n) {
+  return parseFloat(n)
 }
