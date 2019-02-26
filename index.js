@@ -22,10 +22,10 @@ function dec(n) {
   return n -= 1
 }
 
-function parse(n) {
+function makeInt(n) {
   return parseInt(n)
 }
 
-function paese10(n) {
+function makeInt(n) {
   return parseInt(n, 10)
 }
