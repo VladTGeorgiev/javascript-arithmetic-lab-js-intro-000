@@ -3,7 +3,7 @@ function add(a, b) {
 }
 
 function substract(a, b) {
-  return a - b
+  return b - a
 }
 
 function multiply(a, b) {
@@ -29,3 +29,4 @@ function parse(n) {
 function paese10(n) {
   return parseInt(n, 10)
 }
+
