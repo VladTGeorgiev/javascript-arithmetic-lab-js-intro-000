@@ -29,4 +29,3 @@ function parse(n) {
 function paese10(n) {
   return parseInt(n, 10)
 }
-
